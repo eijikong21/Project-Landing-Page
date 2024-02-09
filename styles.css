@@ -103,7 +103,43 @@ justify-content: center;
 strong{
     margin-left:500px;
 }
+.fifth{
+    margin:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color:white;
+}
+.fifth-padding{
+    display:flex;
+    background-color: #3b82f6;
+    height:100px;
+    width:1000px;
+    border-radius: 5px;
+    margin:0;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.fifth  {
+   display:flex;
+}
 
+.signup{
+    background-color: #3b82f6;
+    border:1px solid white;
+    border-radius: 10px;
+    padding:5px 10px;
+    color:white;
+}
+.fifth >.fifth-padding>.call> p{
+    margin:0;
+}
+.fifth >.fifth-padding>.call> p:first-of-type{
+    font-weight: bold;
+    font-size: 24px;
+}
 body{
     margin:0;
 }
